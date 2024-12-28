@@ -1,0 +1,9 @@
+n=int(input())
+x,y,z=map(int,input().split())
+sum=x+y+z
+print(n-sum)
+#max
+m=int(input())
+arr=list(map(int,input().split()))
+maximum=max(arr)
+print(maximum)
